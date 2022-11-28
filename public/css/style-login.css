@@ -1,0 +1,94 @@
+body {
+    background-color: #0096FF;
+}
+
+.panel {
+    margin: 0 auto;
+    position: relative;
+    margin-top: 250px;
+    width: 20em;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.content {
+    margin: 0 auto;
+    position: relative;
+    width: 20em;
+    padding: 25px 20px 20px 25px;
+}
+
+.login {
+    margin: 0 auto;
+    width: 4.25em;
+    margin-bottom: 0.5em;
+    font-family: "AvenirNext", sans-serif;
+}
+
+.email {
+    display: block;
+    font-family: "AvenirNext", sans-serif;
+
+}
+.password {
+    display: block;
+    font-family: "AvenirNext", sans-serif;
+}
+
+.email-field, .password-field {
+    display: block;
+    width: 20em;
+    margin-bottom: 1em;
+}
+
+
+.login-btn {
+    display: inline-block;
+    width: 16.65em;
+    background-color: #0096FF;
+    color: #ffffff;
+    padding: .5em 7em;
+    font-weight: bold;
+    border: 1px solid #0096FF;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 2.5em;
+    font-size: 1em;
+}
+
+.register-btn {
+    display: inline-block;
+    width: 3.5em;
+    background-color: #ffffff;
+    color: #0096FF;
+    padding: .5em 6.5em;
+    font-weight: bold;
+    border: 1px solid #0096FF;
+    border-radius: 5px;
+    font-family: "AvenirNext", sans-serif;
+}
+
+
+.login-btn, .register-btn:link { text-decoration: none; }
+
+.login-btn:visited { 
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.register-btn:visited { 
+    text-decoration: none;
+    color: #0096FF;
+    border: 2px;
+    border-color: #0096FF;
+}
+
+.login-btn:hover {
+    text-decoration: none;
+    background-color: #00008B;
+}
+
+.register-btn:hover { text-decoration: none; }
+
+.login-btn, .register-btn:active { text-decoration: none; }
+

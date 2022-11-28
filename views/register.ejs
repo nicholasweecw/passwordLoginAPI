@@ -1,0 +1,26 @@
+<link rel="stylesheet" href="css/style-register.css"/>
+
+<body>
+    <div class="panel">
+        <div class="content">
+            <h1 class="register">Register</h1>
+            <form action="/register" method="POST">
+                <div>
+                    <label class="name" for="name">Name</label>
+                    <input class="name-field" type="text" id="name" name="name" required>
+                    <!-- Name="name" is for identification in req.body.name in server.js-->
+                </div>
+                <div>
+                    <label class="email" for="email">Email</label>
+                    <input class="email-field" type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label class="password" for="password">Password</label>
+                    <input class="password-field" type="password" id="password" name="password" required>
+                </div>
+                <button class="register-btn" type="submit">Register</button>
+            </form>
+            <a class="login-btn" href="/login">Login</a>
+        </div>
+    </div>
+</body>
